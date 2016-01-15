@@ -10,3 +10,6 @@
 [submodule "log4j-riemann-appender"]
 	path = log4j-riemann-appender
 	url = git@github.com:gorillalabs/log4j-riemann-appender.git
+[submodule "riemann-elastic"]
+	path = riemann-elastic
+	url = git@github.com:chrisbetz/riemann-elastic.git
