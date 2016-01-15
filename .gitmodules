@@ -1,3 +1,6 @@
 [submodule "riemann.osv"]
 	path = riemann.osv
 	url = git@github.com:chrisbetz/riemann.osv.git
+[submodule "elasticsearch.osv"]
+	path = elasticsearch.osv
+	url = git@github.com:chrisbetz/elasticsearch.osv.git
