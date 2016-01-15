@@ -4,3 +4,6 @@
 [submodule "elasticsearch.osv"]
 	path = elasticsearch.osv
 	url = git@github.com:chrisbetz/elasticsearch.osv.git
+[submodule "elasticHQ.osv"]
+	path = elasticHQ.osv
+	url = git@github.com:chrisbetz/elasticHQ.osv.git
