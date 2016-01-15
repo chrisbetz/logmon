@@ -7,3 +7,6 @@
 [submodule "elasticHQ.osv"]
 	path = elasticHQ.osv
 	url = git@github.com:chrisbetz/elasticHQ.osv.git
+[submodule "log4j-riemann-appender"]
+	path = log4j-riemann-appender
+	url = git@github.com:gorillalabs/log4j-riemann-appender.git
