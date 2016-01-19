@@ -34,7 +34,7 @@ So you write logs and metrics to the exposed Riemann ports (which should basical
 
 # Requirements
 
-* VirtualBox
+* VirtualBox (for a test environment)
 * Capstan (see [Prerequisites: local](https://github.com/cloudius-systems/capstan#prerequisites-local) and [Installing Binaries](https://github.com/cloudius-systems/capstan#installing-binaries)).
 
 
@@ -84,12 +84,17 @@ Now you should be good to go.
 
 ## Riemann
 
-From you logmon folder ...
+As the combination of OSv and configuration is a separate project, I decided to keep the [riemann.osv README](https://github.com/chrisbetz/riemann.osv/blob/master/README.md).
+
+Basically, it's setting up the project (basically downloading Riemann, riemann.osv/bin/setup.sh), creating an appliance (riemann.osv/bin/build.sh), configuring the instance correctly (which involves adding another network interface to the appliance, riemann.osv/bin/addinternalnetwork.sh), configuring VirtualBox DHCP server (riemann.osv/bin/setup-virtualbox.sh), and then you're good to go (riemann.osv/bin/run.sh).
 
 
 ## Elasticsearch cluster
 
+The same applies to the ES cluster. Info is kept in the [elasticsearch.osv README](https://github.com/chrisbetz/elasticsearch.osv/blob/master/README.md).
+
 ## ElasticHQ
+
 
 ## Your application / log4j, metrics
 
